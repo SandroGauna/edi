@@ -1,0 +1,190 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* webservice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__content_type
+msgid "Content Type"
+msgstr "Tipo de conteúdo"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__content_type_env_default
+#, fuzzy
+msgid "Content Type Env Default"
+msgstr "Padrão env do tipo de conteúdo"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__content_type_env_is_editable
+#, fuzzy
+msgid "Content Type Env Is Editable"
+msgstr "Env tipo de conteúdo é editável"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: webservice
+#: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__content_type__application/x-www-form-urlencoded
+msgid "Form"
+msgstr "Formulário"
+
+#. module: webservice
+#: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__protocol__http
+msgid "HTTP Request"
+msgstr "Pedido HTTP"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: webservice
+#: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__content_type__application/json
+msgid "JSON"
+msgstr "JSON"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__password
+#, fuzzy
+msgid "Password"
+msgstr "Senha"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__password_env_default
+#, fuzzy
+msgid "Password Env Default"
+msgstr "Padrão de Env de senha"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__password_env_is_editable
+#, fuzzy
+msgid "Password Env Is Editable"
+msgstr "Password Env é editável"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__protocol
+msgid "Protocol"
+msgstr "Protocolo"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__protocol_env_default
+#, fuzzy
+msgid "Protocol Env Default"
+msgstr "Padrão do Protocolo Env"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__protocol_env_is_editable
+#, fuzzy
+msgid "Protocol Env Is Editable"
+msgstr "Protocolo Env é editável"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__server_env_defaults
+#, fuzzy
+msgid "Server Env Defaults"
+msgstr "Padrão env do servidor"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__tech_name
+#, fuzzy
+msgid "Tech Name"
+msgstr "Nome técnico"
+
+#. module: webservice
+#: model:ir.model.fields,help:webservice.field_webservice_backend__tech_name
+#, fuzzy
+msgid "Unique name for technical purposes. Eg: server env keys."
+msgstr "Nome único para fins técnicos. Por exemplo: teclas env do servidor."
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__url
+msgid "Url"
+msgstr "Url"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__url_env_default
+#, fuzzy
+msgid "Url Env Default"
+msgstr "Url Env Padrão"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__url_env_is_editable
+#, fuzzy
+msgid "Url Env Is Editable"
+msgstr "Url Env é editável"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__username
+msgid "Username"
+msgstr "Nome de usuário"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__username_env_default
+#, fuzzy
+msgid "Username Env Default"
+msgstr "Nome de usuário Env Padrão"
+
+#. module: webservice
+#: model:ir.model.fields,field_description:webservice.field_webservice_backend__username_env_is_editable
+#, fuzzy
+msgid "Username Env Is Editable"
+msgstr "Nome de usuário Env é editável"
+
+#. module: webservice
+#: model:ir.actions.act_window,name:webservice.webservice_backend_act_window
+#: model:ir.model,name:webservice.model_webservice_backend
+#: model:ir.ui.menu,name:webservice.webservice_backend_menu
+#, fuzzy
+msgid "WebService Backend"
+msgstr "WebService Backend"
+
+#. module: webservice
+#: model:ir.model.fields.selection,name:webservice.selection__webservice_backend__content_type__application/xml
+msgid "XML"
+msgstr "XML"
