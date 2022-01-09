@@ -1,0 +1,962 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/models/account_move.py:0
+#, fuzzy, python-format
+msgid " Amount w/o tax: %s"
+msgstr " Valor do imposto: %s"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "%d invoice line(s) deleted: %s"
+msgstr "%d linha de faturas excluídas: %s"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "%d new invoice line(s) created: %s"
+msgstr "%d nova linha de faturas criada: %s"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "Account missing on product '%s' or on it's related category '%s'."
+msgstr "Conta falta no produto '%s' ou em sua categoria relacionada '%s'."
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_form
+#, fuzzy
+msgid "Accounting Parameters"
+msgstr "Parâmetros contábeis"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_needaction
+msgid "Action Needed"
+msgstr "Ação Necessária"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__active
+msgid "Active"
+msgstr "Ativo"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "Adjustment"
+msgstr "Ajuste"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__adjustment_credit_account_id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__adjustment_credit_account_id
+#, fuzzy
+msgid "Adjustment Credit Account"
+msgstr "Conta de Crédito de Ajuste"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__adjustment_debit_account_id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__adjustment_debit_account_id
+#, fuzzy
+msgid "Adjustment Debit Account"
+msgstr "Conta de débito de ajuste"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "Adjustment on %s"
+msgstr "Ajuste na %s"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__account_analytic_id
+msgid "Analytic Account"
+msgstr "Conta anlitica"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+msgid "Archived"
+msgstr "Arquivado"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_attachment_count
+msgid "Attachment Count"
+msgstr "Contagem de Anexos"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__invoice_import_create_bank_account
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__invoice_import_create_bank_account
+#, fuzzy
+msgid "Auto-create Bank Account of Supplier"
+msgstr "Criar automaticamente conta bancária do fornecedor"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_res_config_settings
+msgid "Config Settings"
+msgstr "Definições de Configuração"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_account_invoice_import_config
+#, fuzzy
+msgid "Configuration for the import of Supplier Invoices"
+msgstr "Configuração para importação de Notas Fiscais de Fornecedores"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Create"
+msgstr "Criar"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Create New"
+msgstr "Criar Novo"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid "Create New Vendor"
+msgstr "Criar novo fornecedor"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__create_uid
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__create_date
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__currency_id
+msgid "Currency"
+msgstr "Moeda"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_id
+#, fuzzy
+msgid "Draft Supplier Invoice to Update"
+msgstr "Rascunho da fatura do fornecedor para atualizar"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.res_config_settings_view_form
+#, fuzzy
+msgid "Electronic Invoices Import"
+msgstr "Importação de Notas Fiscais Eletrônicas"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__account_id
+msgid "Expense Account"
+msgstr "Conta de despesa"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_filename
+msgid "Filename"
+msgstr "Nome do Arquivo"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canais)"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Parceiros)"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__label
+#, fuzzy
+msgid "Force Description"
+msgstr "Descrição da força"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import_config__label
+#, fuzzy
+msgid "Force supplier invoice line description"
+msgstr "Descrição da linha de fatura do fornecedor force"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_move__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_needaction
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Se selecionado, novas mensagens requerem sua atenção."
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_has_error
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Se selecionado, algumas mensagens tem um erro de entrega."
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid ""
+"If the format you need is not listed above, you should install an "
+"additionnal Odoo module that adds support for that format (e.g. "
+"<i>account_invoice_import_facturx</i>, <i>account_invoice_import_ubl</i>, "
+"<i>account_invoice_import_invoice2data</i>, etc)."
+msgstr ""
+"Se o formato que você precisa não estiver listado acima, você deve instalar "
+"um módulo Odoo adicional que adiciona suporte para esse formato (por "
+"<i>exemplo, account_invoice_import_facturx</i>, "
+"<i>account_invoice_import_ubl,</i> <i>account_invoice_import_invoice2data,</"
+"i>etc)."
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid ""
+"If there are several invoice import configurations for the supplier of the "
+"invoice, Odoo will ask you to choose one of them. If there is an existing "
+"draft invoice for that supplier, Odoo will propose you to update that draft "
+"invoice or create a new draft invoice."
+msgstr ""
+"Se houver várias configurações de importação de faturas para o fornecedor da "
+"fatura, a Odoo pedirá que você escolha uma delas. Se houver uma nota fiscal "
+"existente para esse fornecedor, a Odoo vai propor que você atualize essa "
+"fatura ou crie uma nova fatura de rascunho."
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Import"
+msgstr "Importar"
+
+#. module: account_invoice_import
+#: model:ir.actions.act_window,name:account_invoice_import.account_invoice_import_config_action
+#: model:ir.ui.menu,name:account_invoice_import.account_invoice_import_config_menu
+#, fuzzy
+msgid "Import Bills"
+msgstr "Contas de importação"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.view_move_form
+#, fuzzy
+msgid "Import Invoice File"
+msgstr "Arquivo da fatura de importação"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.view_move_form
+#, fuzzy
+msgid "Import Next Invoice"
+msgstr "Importar próxima fatura"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid "Import Supplier Invoice or Refund"
+msgstr "Fatura ou Reembolso do Fornecedor de Importação"
+
+#. module: account_invoice_import
+#: model:ir.actions.act_window,name:account_invoice_import.account_invoice_import_action
+#: model:ir.ui.menu,name:account_invoice_import.account_invoice_import_menu
+#, fuzzy
+msgid "Import Vendor Bill"
+msgstr "Projeto de Lei do Fornecedor de Importação"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "Import Vendor Bill wizard"
+msgstr "Assistente de projeto de lei do fornecedor de importação"
+
+#. module: account_invoice_import
+#: model:ir.ui.menu,name:account_invoice_import.account_invoice_import_config_root
+#, fuzzy
+msgid "Import Vendor Bills"
+msgstr "Contas do fornecedor de importação"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__invoice_type__in_invoice
+msgid "Invoice"
+msgstr "Fatura"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__import_config_id
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner__invoice_import_ids
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_users__invoice_import_ids
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_form
+#, fuzzy
+msgid "Invoice Import Configuration"
+msgstr "Configuração de importação de faturas"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_tree
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.view_partner_property_form
+#, fuzzy
+msgid "Invoice Import Configurations"
+msgstr "Configurações de importação de faturas"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_type
+#, fuzzy
+msgid "Invoice or Refund"
+msgstr "Fatura ou Reembolso"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_is_follower
+msgid "Is Follower"
+msgstr "É Seguidor"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_account_move
+msgid "Journal Entry"
+msgstr "Entrada no Diário"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__write_uid
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__write_date
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_company__invoice_import_email
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_config_settings__invoice_import_email
+#, fuzzy
+msgid "Mail Gateway: Destination E-mail"
+msgstr "Gateway de Correio: E-mail de destino"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Anexo Principal"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message
+msgid "Message"
+msgstr "Mensagem"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro na Entrega da Mensagem"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_ids
+msgid "Messages"
+msgstr "Mensagens"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__invoice_line_method
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+#, fuzzy
+msgid "Method for Invoice Line"
+msgstr "Método para Linha de Faturas"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "Missing Invoice Import Configuration on partner '%s'."
+msgstr "Configuração de importação de faturas ausentes no parceiro '%s'."
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__nline_auto_product
+#, fuzzy
+msgid "Multi Line, Auto-selected Product"
+msgstr "Multi-Line, Produto auto-selecionado"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__nline_no_product
+#, fuzzy
+msgid "Multi Line, No Product"
+msgstr "Multi Line, Sem Produto"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__nline_static_product
+#, fuzzy
+msgid "Multi Line, Static Product"
+msgstr "Multi-line, Produto Estático"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de Ações"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_partner__invoice_import_count
+#: model:ir.model.fields,field_description:account_invoice_import.field_res_users__invoice_import_count
+#, fuzzy
+msgid "Number of Invoice Import Configurations"
+msgstr "Número de Configurações de Importação de Faturas"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número do erro"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensagens que requerem uma ação"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensagens com erro de entrega"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensagens não lidas"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "Only the date format 102 is supported "
+msgstr "Apenas o formato de data 102 é suportado "
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_file
+#, fuzzy
+msgid "PDF or XML Invoice"
+msgstr "Fatura PDF ou XML"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__partner_id
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__partner_country_id
+#, fuzzy
+msgid "Partner Country"
+msgstr "País Parceiro"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__partner_vat
+#, fuzzy
+msgid "Partner Vat"
+msgstr "Iva parceiro"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__partner-not-found
+#, fuzzy
+msgid "Partner not found"
+msgstr "Parceiro não encontrado"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__invoice_type__in_refund
+msgid "Refund"
+msgstr "Reembolso"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erro de entrega de mensagem"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_config_search
+#, fuzzy
+msgid "Search Invoice Import Configurations"
+msgstr "Configurações de importação de faturas de pesquisa"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__config
+#, fuzzy
+msgid "Select Invoice Import Configuration"
+msgstr "Selecione a configuração de importação de faturas"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__sequence
+msgid "Sequence"
+msgstr "Sequência"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__1line_no_product
+#, fuzzy
+msgid "Single Line, No Product"
+msgstr "Linha única, sem produto"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_config__invoice_line_method__1line_static_product
+#, fuzzy
+msgid "Single Line, Static Product"
+msgstr "Linha única, produto estático"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid ""
+"Some draft supplier invoices/refunds have been found for the supplier of the "
+"invoice you are importing; one of them may correspond to the invoice you are "
+"importing. You can either select an existing draft supplier invoice to "
+"update or create a new draft invoice."
+msgstr ""
+"Algumas notas fiscais/reembolsos do fornecedor foram encontradas para o "
+"fornecedor da fatura que você está importando; um deles pode corresponder à "
+"fatura que você está importando. Você pode selecionar uma fatura de "
+"fornecedor de rascunho existente para atualizar ou criar uma nova fatura de "
+"rascunho."
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__state
+msgid "State"
+msgstr "Estado"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__static_product_id
+#, fuzzy
+msgid "Static Product"
+msgstr "Produto estático"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/models/account_invoice_import_config.py:0
+#, fuzzy, python-format
+msgid ""
+"Static Product must be set on the invoice import configuration of supplier "
+"'%s' that has a Method for Invoice Line set to 'Single Line, Static Product' "
+"or 'Multi Line, Static Product'."
+msgstr ""
+"O Produto Estático deve ser definido na configuração de importação de fatura "
+"do fornecedor '%s' que tem um método de linha de fatura definido como 'Linha "
+"Única, Produto Estático' ou 'Produto Multiáttico'"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_config__tax_ids
+msgid "Taxes"
+msgstr "Impostos"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/models/account_invoice_import_config.py:0
+#, fuzzy, python-format
+msgid ""
+"The Expense Account must be set on the invoice import configuration of "
+"supplier '%s' that has a Method for Invoice Line set to 'Single Line, No "
+"Product' or 'Multi Line, No Product'."
+msgstr ""
+"A Conta de Despesas deve ser definida na configuração de importação de "
+"fatura do fornecedor '%s' que possui um método de linha de fatura definido "
+"como 'Linha Única, Sem Produto' ou 'Multi Line, Nenhum Produto'."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The currency of the imported invoice (%s) is different from the currency of "
+"the existing invoice (%s)"
+msgstr ""
+"A moeda da nota fiscal importada (%s) é diferente da moeda da fatura "
+"existente (%s)"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import_config__invoice_line_method
+#, fuzzy
+msgid ""
+"The multi-line methods will not work for PDF invoices that don't have an "
+"embedded XML file which has structured information on each line."
+msgstr ""
+"Os métodos de várias linhas não funcionarão para faturas PDF que não tenham "
+"um arquivo XML incorporado que tenha informações estruturadas em cada linha."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The quantity has been updated on the invoice line with product '%s' from %s "
+"to %s %s"
+msgstr ""
+"A quantidade foi atualizada na linha de faturas com o produto '%s' de %s "
+"para %s %s"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid ""
+"The supplier has several invoice import configurations: please select the "
+"one you want to use for this import."
+msgstr ""
+"O fornecedor tem várias configurações de importação de faturas: selecione a "
+"que deseja usar para esta importação."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The supplier of the imported invoice (%s) is different from the supplier of "
+"the invoice to update (%s)."
+msgstr ""
+"O fornecedor da nota fiscal importada (%s) é diferente do fornecedor da nota "
+"fiscal para atualizar (%s)."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "The tax amount has been forced to %s (amount computed by Odoo was: %s)."
+msgstr ""
+"O valor do imposto foi forçado a %s (valor calculado por Odoo foi: %s)."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The total amount is different from the untaxed amount, but no tax has been "
+"configured !"
+msgstr ""
+"O valor total é diferente do valor não tributado, mas nenhum imposto foi "
+"configurado !"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The unit price has been updated on the invoice line with product '%s' from "
+"%s to %s %s"
+msgstr ""
+"O preço unitário foi atualizado na linha fatura com o produto '%s' de %s "
+"para %s %s"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The vendor to update '%s' already has a VAT number (%s) which is different "
+"from the vendor VAT number of the invoice (%s)."
+msgstr ""
+"O fornecedor para atualizar '%s' já tem um número de IVA (%s) que é "
+"diferente do número de IVA do fornecedor da fatura (%s)."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The vendor to update '%s' already has a country (%s) which is different from "
+"the country of the vendor of the invoice (%s)."
+msgstr ""
+"O fornecedor para atualizar '%s' já tem um país (%s) que é diferente do país "
+"do fornecedor da fatura (%s)."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "This XML file is not XML-compliant. Error: %s"
+msgstr "Este arquivo XML não é compatível com XML. Erro: %s"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_res_company__invoice_import_email
+#: model:ir.model.fields,help:account_invoice_import.field_res_config_settings__invoice_import_email
+#, fuzzy
+msgid ""
+"This field is used in multi-company setups to import the invoices received "
+"by the mail gateway in the appropriate company"
+msgstr ""
+"Este campo é usado em configurações multi-empresa para importar as faturas "
+"recebidas pelo gateway de correio na empresa apropriada"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"This invoice already exists in Odoo. It's Supplier Invoice Number is '%s' "
+"and it's Odoo number is '%s'"
+msgstr ""
+"Essa fatura já existe em Odoo. Seu número de fatura do fornecedor é '%s' e é "
+"o número do Odoo é '%s'"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"This invoice has been created automatically via file import. Origin: %s."
+msgstr ""
+"Esta fatura foi criada automaticamente via importação de arquivos. Origem: "
+"%s."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "This invoice has been updated automatically via the import of file %s"
+msgstr ""
+"Esta fatura foi atualizada automaticamente através da importação de arquivos "
+"%s"
+
+#. module: account_invoice_import
+#: model:ir.model.constraint,message:account_invoice_import.constraint_res_company_invoice_import_email_uniq
+#, fuzzy
+msgid "This invoice import email already exists!"
+msgstr "Este e-mail de importação de fatura já existe!"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"This type of PDF invoice is not supported. Did you install the module to "
+"support this type of file?"
+msgstr ""
+"Este tipo de fatura PDF não é suportada. Você instalou o módulo para "
+"suportar esse tipo de arquivo?"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"This type of XML invoice is not supported. Did you install the module to "
+"support this type of file?"
+msgstr ""
+"Este tipo de fatura XML não é suportada. Você instalou o módulo para "
+"suportar esse tipo de arquivo?"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__amount_total
+msgid "Total"
+msgstr "Total"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__amount_untaxed
+#, fuzzy
+msgid "Total Untaxed"
+msgstr "Total não tributado"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_unread
+msgid "Unread Messages"
+msgstr "Mensagens Não Lidas"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de Mensagens não Lidas"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__update
+msgid "Update"
+msgstr "Atualizar"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Update Existing"
+msgstr "Atualizar existente"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid "Update Existing Vendor"
+msgstr "Atualizar o fornecedor existente"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import__state__update-from-invoice
+#, fuzzy
+msgid "Update From Invoice"
+msgstr "Atualização da fatura"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Update Invoice"
+msgstr "Atualizar Fatura"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid "Update and Continue"
+msgstr "Atualizar e continuar"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid "Update and Show Vendor"
+msgstr "Atualizar e mostrar fornecedor"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid ""
+"Upload below the supplier invoice/refund as PDF or XML file: Odoo will "
+"create a draft supplier invoice/refund. Supported formats:"
+msgstr ""
+"Faça upload abaixo da fatura/reembolso do fornecedor como arquivo PDF ou "
+"XML: Odoo criará uma fatura/reembolso do fornecedor. Formatos suportados:"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__partner_id
+msgid "Vendor"
+msgstr "Vendedor"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Vendor not found"
+msgstr "Fornecedor não encontrado"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+#, fuzzy
+msgid "Vendor to Update"
+msgstr "Fornecedor para atualizar"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__website_message_ids
+msgid "Website Messages"
+msgstr "Mensagens do Site"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__website_message_ids
+msgid "Website communication history"
+msgstr "Histórico de comunicação do site"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_account_invoice_import
+#, fuzzy
+msgid "Wizard to import supplier invoices/refunds"
+msgstr "Assistente para importar faturas/reembolsos de fornecedores"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"You are importing an invoice in a company that cannot deduct VAT and the "
+"imported invoice has several VAT taxes on the same line (%s). We do not "
+"support this scenario for the moment."
+msgstr ""
+"Você está importando uma fatura em uma empresa que não pode deduzir o IVA e "
+"a nota fiscal importada tem vários impostos do IVA na mesma linha (%s). Não "
+"apoiamos esse cenário no momento."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"You have selected a Multi Line method for this import but Odoo could not "
+"extract/read any XML file inside the PDF invoice."
+msgstr ""
+"Você selecionou um método Multi-Line para esta importação, mas o Odoo não "
+"pôde extrair/ler qualquer arquivo XML dentro da fatura PDF."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"You must configure the 'Adjustment Credit Account' on the Accounting "
+"Configuration page."
+msgstr ""
+"Você deve configurar a 'Conta de Crédito de Ajuste' na página Configuração "
+"contábil."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid ""
+"You must configure the 'Adjustment Debit Account' on the Accounting "
+"Configuration page."
+msgstr ""
+"Você deve configurar a 'Conta de Débito de Ajuste' na página Configuração "
+"contábil."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "You must select a supplier invoice or refund to update"
+msgstr ""
+"Você deve selecionar uma fatura ou reembolso do fornecedor para atualizar"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "You must select a vendor to update."
+msgstr "Você deve selecionar um fornecedor para atualizar."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "You must select an Invoice Import Configuration."
+msgstr "Você deve selecionar uma configuração de importação de fatura."
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, fuzzy, python-format
+msgid "email sent by <b>%s</b> on %s with subject <i>%s</i>"
+msgstr "e-mail enviado por <b>%s</b> sobre %s o assunto <i>%s</i>"
+
+#. module: account_invoice_import
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+#, python-format
+msgid "unspecified"
+msgstr "não especificado"
