@@ -1,0 +1,226 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_facturx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, fuzzy, python-format
+msgid "%s: %s %s dated %s"
+msgstr "%s: %s %s datado %s"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__facturx_level__basic
+msgid "Basic"
+msgstr "Básico"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__facturx_level__basicwl
+#, fuzzy
+msgid "Basic without lines"
+msgstr "Básico sem linhas"
+
+#. module: account_invoice_facturx
+#: model:ir.model,name:account_invoice_facturx.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: account_invoice_facturx
+#: model:ir.model,name:account_invoice_facturx.model_res_config_settings
+msgid "Config Settings"
+msgstr "Definições de Configuração"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, fuzzy, python-format
+msgid ""
+"Country is not set on partner '%s'. In the Factur-X standard, the country is "
+"required for buyer and seller."
+msgstr ""
+"O país não está definido em \"%s\" parceiro. No padrão Factur-X, o país é "
+"necessário para comprador e vendedor."
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__facturx_level__en16931
+#, fuzzy
+msgid "EN 16931 (Comfort)"
+msgstr "EN 16931 (Conforto)"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__facturx_level__extended
+msgid "Extended"
+msgstr "Extendido"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, fuzzy, python-format
+msgid "Factur-X"
+msgstr "Factur-X"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__xml_format_in_pdf_invoice__factur-x
+#, fuzzy
+msgid "Factur-X (CII)"
+msgstr "Factur-X (CII)"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__facturx_level
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_config_settings__facturx_level
+#, fuzzy
+msgid "Factur-X Level"
+msgstr "Nível Factur-X"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__facturx_logo
+#, fuzzy
+msgid "Factur-X Logo"
+msgstr "Logotipo Factur-X"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__facturx_refund_type
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_config_settings__facturx_refund_type
+#, fuzzy
+msgid "Factur-X Refund Type"
+msgstr "Tipo de reembolso Factur-X"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_account_move__id
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__id
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_config_settings__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, python-format
+msgid "Invoice"
+msgstr "Fatura"
+
+#. module: account_invoice_facturx
+#: model:ir.model,name:account_invoice_facturx.model_account_move
+msgid "Journal Entry"
+msgstr "Entrada no Diário"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_ir_actions_report____last_update
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,help:account_invoice_facturx.field_res_company__facturx_logo
+#, fuzzy
+msgid "Logo to include in the visible part of Factur-X invoices"
+msgstr "Logotipo para incluir na parte visível das faturas factur-X"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__facturx_level__minimum
+msgid "Minimum"
+msgstr "Mínimo"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, fuzzy, python-format
+msgid "Missing UNECE Tax Category on tax '%s'"
+msgstr "Categoria tributária ausente da UNECE sobre impostos '%s'"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, fuzzy, python-format
+msgid "Missing UNECE Tax Type on tax '%s'"
+msgstr "Tipo de imposto da UNECE em impostos '%s'"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, fuzzy, python-format
+msgid "Missing UNECE code on payment method '%s'"
+msgstr "Faltando código da UNECE sobre o método de pagamento '%s'"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, fuzzy, python-format
+msgid "No specific payment term selected"
+msgstr "Nenhum termo de pagamento específico selecionado"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, python-format
+msgid "Refund"
+msgstr "Reembolso"
+
+#. module: account_invoice_facturx
+#: model:ir.model,name:account_invoice_facturx.model_ir_actions_report
+msgid "Report Action"
+msgstr "Reportar Ação"
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, fuzzy, python-format
+msgid ""
+"The Factur-X standard specify that unit prices can't be negative. The unit "
+"price of line '%s' is negative. You should generate a customer refund for "
+"that line."
+msgstr ""
+"O padrão Factur-X especifica que os preços unitários não podem ser "
+"negativos. O preço unitário da linha '%s' é negativo. Você deve gerar um "
+"reembolso do cliente para essa linha."
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__facturx_refund_type__380
+#, fuzzy
+msgid "Type 380 with negative amounts"
+msgstr "Tipo 380 com valores negativos"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields.selection,name:account_invoice_facturx.selection__res_company__facturx_refund_type__381
+#, fuzzy
+msgid "Type 381 with positive amounts"
+msgstr "Tipo 381 com quantidades positivas"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,help:account_invoice_facturx.field_res_company__facturx_level
+#: model:ir.model.fields,help:account_invoice_facturx.field_res_config_settings__facturx_level
+#, fuzzy
+msgid ""
+"Unless if you have a good reason, you should always select 'EN 16931 "
+"(Comfort)', which is the default value."
+msgstr ""
+"A menos que você tenha uma boa razão, você deve sempre selecionar 'EN 16931 "
+"(Comfort)', que é o valor padrão."
+
+#. module: account_invoice_facturx
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+#, python-format
+msgid "Wire transfer"
+msgstr "Transferência bancária"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__xml_format_in_pdf_invoice
+#, fuzzy
+msgid "XML Format embedded in PDF invoice"
+msgstr "Formato XML incorporado na fatura PDF"
