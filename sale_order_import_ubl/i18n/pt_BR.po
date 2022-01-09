@@ -1,0 +1,111 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_order_import_ubl
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: sale_order_import_ubl
+#: model:product.product,description_sale:sale_order_import_ubl.product_beeswax
+#: model:product.template,description_sale:sale_order_import_ubl.product_beeswax_product_template
+#, fuzzy
+msgid "Acme beeswax"
+msgstr "Cera de abelha acme"
+
+#. module: sale_order_import_ubl
+#: model:product.product,name:sale_order_import_ubl.product_beeswax
+#: model:product.template,name:sale_order_import_ubl.product_beeswax_product_template
+#, fuzzy
+msgid "Beeswax"
+msgstr "Cera de abelha"
+
+#. module: sale_order_import_ubl
+#: model:product.pricelist,name:sale_order_import_ubl.dkk_pricelist
+#, fuzzy
+msgid "DKK pricelist"
+msgstr "Lista de preços DKK"
+
+#. module: sale_order_import_ubl
+#: model:ir.model.fields,field_description:sale_order_import_ubl.field_sale_order_import__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: sale_order_import_ubl
+#: model:product.product,name:sale_order_import_ubl.product_red_paint
+#: model:product.template,name:sale_order_import_ubl.product_red_paint_product_template
+#, fuzzy
+msgid "Falu Rödfärg"
+msgstr "Falu Rödfärg"
+
+#. module: sale_order_import_ubl
+#: model:ir.model.fields,field_description:sale_order_import_ubl.field_sale_order_import__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: sale_order_import_ubl
+#: model:product.pricelist,name:sale_order_import_ubl.gbp_pricelist
+#, fuzzy
+msgid "IYT pricelist"
+msgstr "Lista de preços IYT"
+
+#. module: sale_order_import_ubl
+#: model:ir.model.fields,field_description:sale_order_import_ubl.field_sale_order_import____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: sale_order_import_ubl
+#: model:product.product,name:sale_order_import_ubl.product_pencil
+#: model:product.template,name:sale_order_import_ubl.product_pencil_product_template
+#, fuzzy
+msgid "Pensel 20 mm"
+msgstr "Pensel 20 mm"
+
+#. module: sale_order_import_ubl
+#: model:product.product,description_sale:sale_order_import_ubl.product_red_paint
+#: model:product.template,description_sale:sale_order_import_ubl.product_red_paint_product_template
+#, fuzzy
+msgid "Red paint"
+msgstr "Tinta vermelha"
+
+#. module: sale_order_import_ubl
+#: model:product.pricelist,name:sale_order_import_ubl.sek_pricelist
+#, fuzzy
+msgid "SEK pricelist"
+msgstr "Lista de preços SEK"
+
+#. module: sale_order_import_ubl
+#: model:ir.model,name:sale_order_import_ubl.model_sale_order_import
+#, fuzzy
+msgid "Sale Order Import from Files"
+msgstr "Importação do pedido de venda de arquivos"
+
+#. module: sale_order_import_ubl
+#: model:product.product,uom_name:sale_order_import_ubl.product_pencil
+#: model:product.template,uom_name:sale_order_import_ubl.product_pencil_product_template
+msgid "Units"
+msgstr "Unidades"
+
+#. module: sale_order_import_ubl
+#: model:product.product,description_sale:sale_order_import_ubl.product_pencil
+#: model:product.template,description_sale:sale_order_import_ubl.product_pencil_product_template
+#, fuzzy
+msgid "Very good pencils for red paint"
+msgstr "Lápis muito bons para tinta vermelha"
+
+#. module: sale_order_import_ubl
+#: model:product.product,uom_name:sale_order_import_ubl.product_beeswax
+#: model:product.template,uom_name:sale_order_import_ubl.product_beeswax_product_template
+msgid "kg"
+msgstr "kg"
