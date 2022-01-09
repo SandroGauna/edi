@@ -1,0 +1,422 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_business_document_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid "(fixed)"
+msgstr "(fixo)"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid "<b>Notes in file %s:</b>"
+msgstr "<b>Notas no %s arquivo:</b>"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid "<b>Notes in imported document:</b>"
+msgstr "<b>Notas em documento importado:</b>"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"<p>Odoo couldn't find any unit of measure corresponding to the following "
+"information extracted from the business document:</p><ul><li>UNECE code: %s</"
+"li><li>Name of the unit of measure: %s</li></ul><p>So the unit of measure "
+"'Unit(s)' has been used. <em>You may have to change it manually.</em></p>"
+msgstr ""
+"<p>Odoo não encontrou nenhuma unidade de medida correspondente às seguintes "
+"informações extraídas do documento comercial:</p><ul><li>Código UNECE: %s</"
+"li><li>Nome da unidade de medida: %s</li></ul><p>Assim, a unidade de medida "
+"'unit(s)' foi utilizada. <em>Você pode ter que troque manualmente.</em></p>"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid "Approximate match: account %s has been matched with account %s"
+msgstr "Partida aproximada: %s da conta foi combinada com %s de conta"
+
+#. module: base_business_document_import
+#: model:ir.model,name:base_business_document_import.model_business_document_import
+#, fuzzy
+msgid "Common methods to import business documents"
+msgstr "Métodos comuns para importar documentos de negócios"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid "Could not find any Incoterm in Odoo corresponding to '%s'"
+msgstr ""
+"Não foi possível encontrar nenhum Incoterm em Odoo correspondente a '%s'"
+
+#. module: base_business_document_import
+#: model:ir.model.fields,field_description:base_business_document_import.field_business_document_import__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"For product '%s', the unit of measure is %s on the existing line, but it is "
+"%s on the imported line. We don't support this scenario for the moment, so "
+"<b>the lines haven't been updated</b>."
+msgstr ""
+"Para o produto %s ' ', a unidade de medida está %s na linha existente, mas "
+"está na linha %s importada. Não apoiamos esse cenário no momento, então "
+"<b>as linhas não foram atualizadas.</b>"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid "IBAN <b>%s</b> is not valid, so it has been ignored."
+msgstr "O IBAN <b>%s</b> não é válido, por isso foi ignorado."
+
+#. module: base_business_document_import
+#: model:ir.model.fields,field_description:base_business_document_import.field_business_document_import__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: base_business_document_import
+#: model:ir.model.fields,field_description:base_business_document_import.field_business_document_import____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid "Missing VAT number on company '%s'"
+msgstr "Número de IVA perdido na empresa '%s'"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid "No currency specified, so Odoo used the company currency (%s)"
+msgstr "Nenhuma moeda especificada, então Odoo usou a moeda da empresa (%s)"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"Odoo couldn't find any %s corresponding to the following information "
+"extracted from the business document:\n"
+"Name: %s\n"
+"VAT number: %s\n"
+"Reference: %s\n"
+"E-mail: %s\n"
+"Website: %s\n"
+"State code: %s\n"
+"Country code: %s\n"
+msgstr ""
+"Odoo não encontrou nenhuma %s correspondente às seguintes informações "
+"extraídas do documento comercial:\n"
+"Nome: %s\n"
+"Número do IVA: %s\n"
+"Referência: %s\n"
+"E-mail: %s\n"
+"Site: %s\n"
+"Código estadual: %s\n"
+"Código do país: %s\n"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"Odoo couldn't find any account corresponding to the following information "
+"extracted from the business document:\n"
+"Account code: %s"
+msgstr ""
+"Odoo não encontrou nenhuma conta correspondente às seguintes informações "
+"extraídas do documento comercial:\n"
+"Código da conta: %s"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"Odoo couldn't find any analytic account corresponding to the following "
+"information extracted from the business document:\n"
+"Analytic account code: %s"
+msgstr ""
+"Odoo não encontrou nenhuma conta analítica correspondente às seguintes "
+"informações extraídas do documento comercial:\n"
+"Código de conta analítico: %s"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"Odoo couldn't find any journal corresponding to the following information "
+"extracted from the business document:\n"
+"Journal code: %s"
+msgstr ""
+"Odoo não encontrou nenhum diário correspondente às seguintes informações "
+"extraídas do documento comercial:\n"
+"Código do diário: %s"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"Odoo couldn't find any product corresponding to the following information "
+"extracted from the business document:\n"
+"Barcode: %s\n"
+"Product code: %s\n"
+"Supplier: %s\n"
+msgstr ""
+"Odoo não encontrou nenhum produto correspondente às seguintes informações "
+"extraídas do documento comercial:\n"
+"Código de barras: %s\n"
+"Código do produto: %s\n"
+"Fornecedor: %s\n"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"Odoo couldn't find any shipping partner corresponding to the following "
+"information extracted from the business document:\n"
+"Name: %s\n"
+"VAT number: %s\n"
+"Reference: %s\n"
+"E-mail: %s\n"
+"Website: %s\n"
+"Street: %s\n"
+"Street2: %s\n"
+"City: %s\n"
+"ZIP: %s\n"
+"State code: %s\n"
+"Country code: %s\n"
+msgstr ""
+"A Odoo não encontrou nenhum parceiro de expedição correspondente às "
+"seguintes informações extraídas do documento comercial:\n"
+"Nome: %s\n"
+"Número do IVA: %s\n"
+"Referência: %s\n"
+"E-mail: %s\n"
+"Site: %s\n"
+"Rua: %s\n"
+"Rua2: %s\n"
+"Cidade: %s\n"
+"%s\n"
+"Código estadual: %s\n"
+"Código do país: %s\n"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"Odoo couldn't find any tax with 'Tax Application' = '%s' and 'Tax Included "
+"in Price' = '%s' which correspond to the following information extracted "
+"from the business document:\n"
+"UNECE Tax Type code: %s\n"
+"UNECE Tax Category code: %s\n"
+"UNECE Due Date code: %s\n"
+"Tax amount: %s %s"
+msgstr ""
+"Odoo não encontrou nenhum imposto com 'Aplicação tributária' = '%s' e "
+"'Imposto Incluído no Preço' = '%s' que correspondem às seguintes informações "
+"extraídas do documento comercial:\n"
+"Código tipo tributário unece: %s\n"
+"Código da categoria tributária da UNECE: %s\n"
+"Código de data de vencimento da UNECE: %s\n"
+"Valor do imposto: %s %s"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"One of the imported lines doesn't have any product, so <b>the lines haven't "
+"been updated</b>."
+msgstr ""
+"Uma das linhas importadas não tem nenhum produto, então <b>as linhas não "
+"foram atualizadas.</b>"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The %s has been identified by the domain name '%s' so please check carefully "
+"that the %s is correct."
+msgstr ""
+"O %s foi identificado pelo nome de domínio '%s' então, por favor, verifique "
+"cuidadosamente se o %s está correto."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The VAT number of the customer written in the business document (%s) doesn't "
+"match the VAT number of the company '%s' (%s) in which you are trying to "
+"import this document."
+msgstr ""
+"O número de IVA do cliente escrito no documento de negócios (%s) não "
+"corresponde ao número de IVA da empresa '%s' (%s) em que você está tentando "
+"importar este documento."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The analysis of the business document returned '%s' as country code. But "
+"there are no country with that code in Odoo."
+msgstr ""
+"A análise do documento de negócios retornou '%s' como código de país. Mas "
+"não há país com esse código em Odoo."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The analysis of the business document returned '%s' as the country code to "
+"find the related currency. But the country '%s' doesn't have any related "
+"currency configured in Odoo."
+msgstr ""
+"A análise do documento de negócios retornou '%s' como o código do país para "
+"encontrar a moeda relacionada. Mas o país \"%s\" não tem nenhuma moeda "
+"relacionada configurada em Odoo."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The analysis of the business document returned '%s' as the country code to "
+"find the related currency. But there is no country with that code in Odoo."
+msgstr ""
+"A análise do documento de negócios retornou '%s' como o código do país para "
+"encontrar a moeda relacionada. Mas não há país com esse código em Odoo."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The analysis of the business document returned '%s' as the currency ISO "
+"code. But there are no currency with that code in Odoo."
+msgstr ""
+"A análise do documento de negócios retornou '%s' como o código ISO da moeda. "
+"Mas não há moeda com esse código em Odoo."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The analysis of the business document returned '%s' as the currency symbol "
+"or ISO code. But there are none or several currencies with the symbol/ISO "
+"code in Odoo."
+msgstr ""
+"A análise do documento de negócios retornou '%s' como símbolo de moeda ou "
+"código ISO. Mas não há nenhuma ou várias moedas com o código símbolo/ISO em "
+"Odoo."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The analysis of the business document returned '%s' as the currency symbol. "
+"But there are none or several currencies with that symbol in Odoo."
+msgstr ""
+"A análise do documento de negócios retornou '%s' como símbolo de moeda. Mas "
+"não há nenhuma ou várias moedas com esse símbolo em Odoo."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The analysis of the business document returned '%s' as the unit of measure "
+"UNECE code, but there is no unit of measure with that UNECE code in Odoo. "
+"Please check the configuration of the units of measures in Odoo."
+msgstr ""
+"A análise do documento empresarial retornou '%s' como unidade de medida do "
+"código UNECE, mas não há unidade de medida com esse código da UNECE em Odoo. "
+"Verifique a configuração das unidades de medidas em Odoo."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The analysis of the business document returned <b>IBAN %s</b> as bank "
+"account, but there is no such bank account in Odoo linked to partner <a "
+"href=# data-oe-model=res.partner data-oe-id=%d>%s</a> and the option to "
+"automatically create bank accounts upon import is disabled."
+msgstr ""
+"A análise do documento comercial devolveu o <b>IBAN %s </b> como conta "
+"bancária, mas não existe tal conta bancária em Odoo vinculada a > de <a "
+"href=# data-oe-model=res.partner data-oe-id= %d %s parceiros e a opção de "
+"criar automaticamente contas bancárias no momento da importação é desativada."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The bank account <b>IBAN %s</b> has been automatically added on the supplier "
+"<a href=# data-oe-model=res.partner data-oe-id=%d>%s</a>"
+msgstr ""
+"A conta bancária <b>IBAN %s </b> foi automaticamente adicionada ao "
+"fornecedor <a href=# data-oe-model=res.partner data-oe-id= %d >%s"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The existing line '%s' doesn't have any product, so <b>the lines haven't "
+"been updated</b>."
+msgstr ""
+"A linha existente %s ' ' não tem nenhum produto, então as linhas não foram "
+"<b>atualizadas</b>."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The product '%s' is used on several existing lines, so <b>the lines haven't "
+"been updated</b>."
+msgstr ""
+"O produto ' %s ' é usado em várias linhas existentes, de modo que as linhas "
+"não foram <b>atualizadas</b>."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, fuzzy, python-format
+msgid ""
+"The product '%s' is used on several imported lines, so <b>the lines haven't "
+"been updated</b>."
+msgstr ""
+"O produto %s ' ' é usado em várias linhas importadas, de modo que as linhas "
+"não foram <b>atualizadas</b>."
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, python-format
+msgid "customer"
+msgstr "cliente"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, python-format
+msgid "partner"
+msgstr "parceiro"
+
+#. module: base_business_document_import
+#: code:addons/base_business_document_import/models/business_document_import.py:0
+#, python-format
+msgid "supplier"
+msgstr "fornecedor"
