@@ -1,0 +1,1039 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* edi_oca
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__advanced_settings_edit
+#, fuzzy
+msgid ""
+"\n"
+"            Advanced technical settings as YAML format.\n"
+"            The YAML structure should reproduce a dictionary.\n"
+"            The backend might use these settings for automated operations.\n"
+"\n"
+"            Currently supported conf:\n"
+"\n"
+"              components:\n"
+"                generate:\n"
+"                  usage: $comp_usage\n"
+"                  work_ctx:\n"
+"                     opt1: True\n"
+"                validate:\n"
+"                  usage: $comp_usage\n"
+"                check:\n"
+"                  usage: $comp_usage\n"
+"                send:\n"
+"                  usage: $comp_usage\n"
+"                receive:\n"
+"                  usage: $comp_usage\n"
+"                process:\n"
+"                  usage: $comp_usage\n"
+"\n"
+"            In any case, you can use these settings\n"
+"            to provide your own configuration for whatever need you might "
+"have.\n"
+"        "
+msgstr ""
+"\n"
+"Configurações técnicas avançadas como formato YAML.\n"
+"            A estrutura YAML deve reproduzir um dicionário.\n"
+"            O backend pode usar essas configurações para operações "
+"automatizadas.\n"
+"\n"
+"Atualmente suportado conf:\n"
+"\n"
+"Componentes:\n"
+"                gerar:\n"
+"                  uso: $comp_uso\n"
+"                  work_ctx:\n"
+"                     opt1: True\n"
+"                validar:\n"
+"                  uso: $comp_uso\n"
+"                verificar:\n"
+"                  uso: $comp_uso\n"
+"                Enviar:\n"
+"                  uso: $comp_uso\n"
+"                receber:\n"
+"                  uso: $comp_uso\n"
+"                processo:\n"
+"                  uso: $comp_uso\n"
+"\n"
+"Em qualquer caso, você pode usar essas configurações\n"
+"            para fornecer sua própria configuração para qualquer "
+"necessidade que você possa ter.\n"
+"        "
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_backend__output_sent_processed_auto
+#, fuzzy
+msgid ""
+"\n"
+"    Automatically set the record as processed after sending.\n"
+"    Usecase: the web service you send the file to processes it on the fly.\n"
+"    "
+msgstr ""
+"\n"
+"Defina automaticamente o registro como processado após o envio.\n"
+"    Usecase: o serviço web que você envia o arquivo para processá-lo em "
+"tempo real.\n"
+"    "
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_consumer_mixin_buttons
+#, fuzzy
+msgid ""
+"<i class=\"fa fa-retweet\"/>The record has some pending EDIs to be generated"
+msgstr "<i j=\"0/\">O registro tem algumas EDIs pendentes a serem gerados</i>"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.message_edi_exchange_link
+#, fuzzy
+msgid "<strong>EDI exchange:</strong>"
+msgstr "<strong>Troca de EDI:</strong>"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.message_edi_exchange_link
+#, fuzzy
+msgid "<strong>Message:</strong>"
+msgstr "<strong>Mensagem:</strong>"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.message_edi_exchange_link
+#, fuzzy
+msgid "<strong>State:</strong>"
+msgstr "<strong>Estado:</strong>"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_form
+#, fuzzy
+msgid "ACK"
+msgstr "ACK"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__ack_exchange_id
+#, fuzzy
+msgid "ACK exchange"
+msgstr "Troca de ACK"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "ACK file is required for this exchange but not found."
+msgstr "O arquivo ACK é necessário para esta troca, mas não encontrado."
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "ACK file received but contains errors."
+msgstr "Arquivo ACK recebido, mas contém erros."
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "ACK file received."
+msgstr "Arquivo ACK recebido."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__ack_exchange_id
+#, fuzzy
+msgid "ACK for this exchange"
+msgstr "ACK para esta troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__ack_received_on
+#, fuzzy
+msgid "ACK received on"
+msgstr "ACK recebido em"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_exchange_consumer_mixin
+#, fuzzy
+msgid "Abstract record where exchange records can be assigned"
+msgstr "Registro abstrato onde os registros de troca podem ser atribuídos"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__ack_expected
+#, fuzzy
+msgid "Ack Expected"
+msgstr "Ack Esperado"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__ack_type_id
+#, fuzzy
+msgid "Ack exchange type"
+msgstr "Tipo de troca de Ack"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_needaction
+msgid "Action Needed"
+msgstr "Ação Necessária"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "Action retry: state moved back to '%s'"
+msgstr "Rejulção da ação: estado voltou para '%s'"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__advanced_settings
+msgid "Advanced Settings"
+msgstr "Configurações Avançadas"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__advanced_settings_edit
+#, fuzzy
+msgid "Advanced YAML settings"
+msgstr "Configurações AVANÇADAs do YAML"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_form
+msgid "Advanced settings"
+msgstr "Configurações avançadas"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "An error happened while sending. Please check exchange record info."
+msgstr ""
+"Um erro aconteceu durante o envio. Por favor, verifique as informações de "
+"registro de troca."
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_attachment_count
+msgid "Attachment Count"
+msgstr "Contagem de Anexos"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__exchange_file_auto_generate
+#, fuzzy
+msgid ""
+"Auto generate output for records missing their payload. If active, a cron "
+"will take care of generating the output when not set yet. "
+msgstr ""
+"O auto gera saída para registros que faltam a carga. Se ativo, um cron "
+"cuidará da geração da saída quando ainda não estiver definido. "
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__backend_id
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__backend_id
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__backend_id
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_search
+msgid "Backend"
+msgstr "Backend"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_backend_view_search
+#, fuzzy
+msgid "Backend Type"
+msgstr "Tipo backend"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "Backend must match with exchange type's backend!"
+msgstr "Backend deve combinar com backend tipo de troca!"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_type.py:0
+#, fuzzy, python-format
+msgid "Backend should respect backend type!"
+msgstr "Backend deve respeitar o tipo backend!"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__backend_type_id
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__backend_type_id
+msgid "Backend type"
+msgstr "Tipo Infraestrutura"
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_backend_type_uniq_code
+#, fuzzy
+msgid "Backend type code must be unique!"
+msgstr "O código do tipo backend deve ser único!"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "Backend type must match with exchange type's backend type!"
+msgstr "O tipo backend deve corresponder com o tipo backend do tipo de troca!"
+
+#. module: edi_oca
+#: model:ir.ui.menu,name:edi_oca.menu_edi_backend
+msgid "Backends"
+msgstr "Infraestruturas"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_create_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type__code
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__code
+msgid "Code"
+msgstr "Código"
+
+#. module: edi_oca
+#: model:ir.ui.menu,name:edi_oca.menu_edi_config
+msgid "Config"
+msgstr "Configurações"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_exchange_record_create_wiz
+#, fuzzy
+msgid "Create an Exchange Record"
+msgstr "Crie um registro de troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__create_uid
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type__create_uid
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__create_uid
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__create_uid
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__create_date
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type__create_date
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__create_date
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__create_date
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__direction
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__direction
+msgid "Direction"
+msgstr "Direção"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__display_name
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type__display_name
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_consumer_mixin__display_name
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__display_name
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__display_name
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: edi_oca
+#: model:res.groups,name:edi_oca.group_edi_advanced_settings_manager
+#, fuzzy
+msgid "EDI Advanced Settings Manager"
+msgstr "Gerente de Configurações Avançadas do EDI"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_backend_view
+#: model:ir.model,name:edi_oca.model_edi_backend
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_backend_view_form
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_backend_view_search
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_backend_view_tree
+#, fuzzy
+msgid "EDI Backend"
+msgstr "EDI Backend"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_backend_type_view
+#: model:ir.model,name:edi_oca.model_edi_backend_type
+#: model:ir.ui.menu,name:edi_oca.menu_edi_backend_type
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_backend_type_view_form
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_backend_type_view_search
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_backend_type_view_tree
+#, fuzzy
+msgid "EDI Backend Type"
+msgstr "Tipo de backend EDI"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__backend_type_id
+#, fuzzy
+msgid "EDI Backend type"
+msgstr "Tipo EDI Backend"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_exchange_record_view
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_form
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_tree
+#, fuzzy
+msgid "EDI Exchange Record"
+msgstr "Registro de Troca EDI"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.act_open_edi_exchange_type_view
+#: model:ir.model,name:edi_oca.model_edi_exchange_type
+#: model:ir.ui.menu,name:edi_oca.menu_edi_exchange_type
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_form
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_search
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_tree
+#, fuzzy
+msgid "EDI Exchange Type"
+msgstr "Tipo de troca EDI"
+
+#. module: edi_oca
+#: model:ir.model,name:edi_oca.model_edi_exchange_record
+#, fuzzy
+msgid "EDI exchange Record"
+msgstr "Registro de troca de EDI"
+
+#. module: edi_oca
+#: model:ir.actions.server,name:edi_oca.cron_edi_backend_check_output_exchange_ir_actions_server
+#: model:ir.cron,cron_name:edi_oca.cron_edi_backend_check_output_exchange
+#: model:ir.cron,name:edi_oca.cron_edi_backend_check_output_exchange
+#, fuzzy
+msgid "EDI exchange check status"
+msgstr "Status de verificação de troca EDI"
+
+#. module: edi_oca
+#: model:ir.actions.server,name:edi_oca.cron_edi_backend_check_input_exchange_ir_actions_server
+#: model:ir.cron,cron_name:edi_oca.cron_edi_backend_check_input_exchange
+#: model:ir.cron,name:edi_oca.cron_edi_backend_check_input_exchange
+#, fuzzy
+msgid "EDI exchange input status"
+msgstr "Status de entrada de troca EDI"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__enable_domain
+#, fuzzy
+msgid "Enable on domain"
+msgstr "Habilitar no domínio"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__enable_snippet
+#, fuzzy
+msgid "Enable on snippet"
+msgstr "Habilitar em trecho"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_form
+msgid "Error"
+msgstr "Erro"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__input_processed_error
+#, fuzzy
+msgid "Error on process"
+msgstr "Erro no processo"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__input_receive_error
+#, fuzzy
+msgid "Error on reception"
+msgstr "Erro na recepção"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__validate_error
+#, fuzzy
+msgid "Error on validation"
+msgstr "Erro na validação"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_backend.py:0
+#, fuzzy, python-format
+msgid "Exchabge record ID=%d already has a file to process!"
+msgstr "Exchabge gravar ID=%d já tem um arquivo para processar!"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__exchange_file
+#, fuzzy
+msgid "Exchange File"
+msgstr "Arquivo de troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__exchange_file_auto_generate
+#, fuzzy
+msgid "Exchange File Auto Generate"
+msgstr "Exchange Arquivo Auto Gerar"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__exchange_file_ext
+#, fuzzy
+msgid "Exchange File Ext"
+msgstr "Ramal de arquivo de troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__exchange_filename
+#, fuzzy
+msgid "Exchange Filename"
+msgstr "Nome de arquivo de troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__exchange_filename_pattern
+#, fuzzy
+msgid "Exchange Filename Pattern"
+msgstr "Padrão de nome de arquivo de troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_consumer_mixin__exchange_record_ids
+#, fuzzy
+msgid "Exchange Record"
+msgstr "Registro de Troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_consumer_mixin__exchange_record_count
+#, fuzzy
+msgid "Exchange Record Count"
+msgstr "Contagem de registros de troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__exchange_type_id
+#, fuzzy
+msgid "Exchange Type"
+msgstr "Tipo de troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__exchange_error
+#, fuzzy
+msgid "Exchange error"
+msgstr "Erro de troca"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_backend.py:0
+#, fuzzy, python-format
+msgid "Exchange record ID=%d is not an outgoing record, cannot be generated"
+msgstr ""
+"O registro de troca ID=%d não é um registro de saída, não pode ser gerado"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_backend.py:0
+#, fuzzy, python-format
+msgid ""
+"Exchange record ID=%d is not in draft state and has already an output value."
+msgstr ""
+"Registro de câmbio ID=%d não está em estado de rascunho e já tem um valor "
+"de saída."
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__edi_exchange_state
+#, fuzzy
+msgid "Exchange state"
+msgstr "Estado de intercâmbio"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "Exchange state must respect direction!"
+msgstr "O Estado de Intercâmbio deve respeitar a direção!"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__type_id
+#, fuzzy
+msgid "Exchange type"
+msgstr "Tipo de troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__exchanged_on
+#, fuzzy
+msgid "Exchanged on"
+msgstr "Trocado em"
+
+#. module: edi_oca
+#: model:ir.ui.menu,name:edi_oca.menu_edi_exchange_record
+msgid "Exchanges"
+msgstr "Pontos de Troca"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_consumer_mixin__expected_edi_configuration
+#, fuzzy
+msgid "Expected Edi Configuration"
+msgstr "Configuração Edi esperada"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__external_identifier
+#, fuzzy
+msgid "External Identifier"
+msgstr "Identificador Externo"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "File %s not received"
+msgstr "Arquivo %s não recebido"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "File %s not valid"
+msgstr "Arquivo %s não é válido"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "File %s processed successfully "
+msgstr "Arquivo %s processado com sucesso "
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "File %s processed with errors"
+msgstr "Arquivo %s processado com erros"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "File %s received successfully "
+msgstr "%s de arquivos recebidos com sucesso "
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_exchange_record.py:0
+#, fuzzy, python-format
+msgid "File %s sent"
+msgstr "Arquivo %s enviado"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__enable_domain
+#, fuzzy
+msgid "Filter domain to be checked on Models"
+msgstr "Domínio do filtro a ser verificado em Modelos"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canais)"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Parceiros)"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__exchange_filename_pattern
+#, fuzzy
+msgid ""
+"For output exchange types this should be a formatting string with the "
+"following variables available (to be used between brackets, `{}`): "
+"`exchange_record`, `record_name`, `type` and `dt`. For instance, a valid "
+"string would be {record_name}-{type.code}-{dt}\n"
+"For input exchange types related to storage backends it should be a regex "
+"expression to filter the files to be fetched from the pending directory in "
+"the related storage. E.g: `.*my-type-[0-9]*.\\.csv`"
+msgstr ""
+"Para os tipos de troca de saída, esta deve ser uma sequência de formatação "
+"com as seguintes variáveis disponíveis (a ser usada entre suportes, '{}'): "
+"'exchange_record', 'record_name', 'type' e 'dt'. Por exemplo, uma sequência "
+"válida seria {record_name}-{type.code}-{dt}\n"
+"Para tipos de troca de entrada relacionados a backends de armazenamento, "
+"deve ser uma expressão regex para filtrar os arquivos a serem obtidos do "
+"diretório pendente no armazenamento relacionado. Por exemplo: '.*meu tipo-"
+"[0-9]*.\\.csv'"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_create_form_view
+msgid "Generate"
+msgstr "Gerar"
+
+#. module: edi_oca
+#: model:ir.actions.act_window,name:edi_oca.edi_exchange_record_create_act_window
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_create_form_view
+#, fuzzy
+msgid "Generate Exchange Record"
+msgstr "Gerar registro de câmbio"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_consumer_mixin__has_expected_edi_configuration
+#, fuzzy
+msgid "Has Expected Edi Configuration"
+msgstr "Tem configuração Edi esperada"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__id
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type__id
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_consumer_mixin__id
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__id
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__id
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__identifier
+msgid "Identifier"
+msgstr "Identificador"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__ack_type_id
+#, fuzzy
+msgid ""
+"Identify the type of the ack. If this field is valued it means an hack is "
+"expected."
+msgstr ""
+"Identifique o tipo de ack. Se este campo é valorizado, significa que um "
+"hack é esperado."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_needaction
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Se selecionado, novas mensagens requerem sua atenção."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_has_error
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Se selecionado, algumas mensagens tem um erro de entrega."
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_type__direction__input
+msgid "Input"
+msgstr "Entrada"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_is_follower
+msgid "Is Follower"
+msgstr "É Seguidor"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__job_channel_id
+#, fuzzy
+msgid "Job Channel"
+msgstr "Canal de Trabalho"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend____last_update
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type____last_update
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_consumer_mixin____last_update
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record____last_update
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz____last_update
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__write_uid
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type__write_uid
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__write_uid
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__write_uid
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__write_date
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type__write_date
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__write_date
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__write_date
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Anexo Principal"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro na Entrega da Mensagem"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_ids
+msgid "Messages"
+msgstr "Mensagens"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__model
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__model
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__model_ids
+msgid "Model"
+msgstr "Modelo"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_type_view_form
+#, fuzzy
+msgid "Model rules"
+msgstr "Regras do modelo"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__model_ids
+#, fuzzy
+msgid "Modules to be checked for manual EDI generation"
+msgstr "Módulos a serem verificados para geração EDI manual"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__name
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend_type__name
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__name
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_type__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__new
+msgid "New"
+msgstr "Novo"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de Ações"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número do erro"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensagens que requerem uma ação"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensagens com erro de entrega"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensagens não lidas"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__parent_id
+#, fuzzy
+msgid "Original exchange which originated this record"
+msgstr "Troca original que originou este registro"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_type__direction__output
+msgid "Output"
+msgstr "Saída"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_backend__output_sent_processed_auto
+#, fuzzy
+msgid "Output Sent Processed Auto"
+msgstr "Saída enviada automática processada"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__parent_id
+msgid "Parent"
+msgstr "Pai"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+#, fuzzy
+msgid "Parent exchange"
+msgstr "Troca de pais"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__input_processed
+msgid "Processed"
+msgstr "Processado"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__input_received
+msgid "Received"
+msgstr "Recebido"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__res_id
+msgid "Record"
+msgstr "Registro"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_backend.py:0
+#, fuzzy, python-format
+msgid "Record ID=%d has no file to process!"
+msgstr "O Record ID=%d não tem arquivo para processar!"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_backend.py:0
+#, fuzzy, python-format
+msgid "Record ID=%d has no file to send!"
+msgstr "O Record ID=%d não tem nenhum arquivo para enviar!"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_backend.py:0
+#, fuzzy, python-format
+msgid "Record ID=%d is not meant to be processed"
+msgstr "O Registro ID=%d não deve ser processado"
+
+#. module: edi_oca
+#: code:addons/edi_oca/models/edi_backend.py:0
+#, fuzzy, python-format
+msgid "Record ID=%d is not meant to be sent!"
+msgstr "O Registro ID=%d não deve ser enviado!"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_form
+#, fuzzy
+msgid "Related exchanges"
+msgstr "Trocas relacionadas"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_form
+#, fuzzy
+msgid "Related record"
+msgstr "Registro relacionado"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__related_exchange_ids
+#, fuzzy
+msgid "Related records"
+msgstr "Registros relacionados"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record_create_wiz__res_id
+#, fuzzy
+msgid "Res"
+msgstr "Res"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_form
+msgid "Retry"
+msgstr "Tente novamente"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__retryable
+#, fuzzy
+msgid "Retryable"
+msgstr "Remisável"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erro de entrega de mensagem"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__output_sent
+msgid "Sent"
+msgstr "Enviado"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__output_sent_and_error
+#, fuzzy
+msgid "Sent and error"
+msgstr "Enviado e erro"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__output_sent_and_processed
+#, fuzzy
+msgid "Sent and processed"
+msgstr "Enviado e processado"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__ack_received_on
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__exchanged_on
+#, fuzzy
+msgid "Sent or received on this date."
+msgstr "Enviado ou recebido nesta data."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_type__enable_snippet
+#, fuzzy
+msgid ""
+"Snippet of code to be checked on Models,\n"
+"        You can use `record` and `exchange_type` here.\n"
+"        It will be executed if variable result has been defined as True\n"
+"        "
+msgstr ""
+"Trecho de código a ser verificado em Modelos,\n"
+"        Você pode usar 'gravar' e 'exchange_type' aqui.\n"
+"        Ele será executado se o resultado variável tiver sido definido como "
+"True\n"
+"        "
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+msgid "State"
+msgstr "Estado"
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_form
+msgid "Status"
+msgstr "Situação"
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_type_code_uniq
+#, fuzzy
+msgid "The code must be unique per backend"
+msgstr "O código deve ser único por backend"
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_record_external_identifier_uniq
+#, fuzzy
+msgid "The external_identifier must be unique for a type and a backend."
+msgstr "O external_identifier deve ser único para um tipo e um backend."
+
+#. module: edi_oca
+#: model:ir.model.constraint,message:edi_oca.constraint_edi_exchange_record_identifier_uniq
+#, fuzzy
+msgid "The identifier must be unique."
+msgstr "O identificador deve ser único."
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__retryable
+#, fuzzy
+msgid "The record state can be rolled back manually in case of failure."
+msgstr "O estado de registro pode ser revertido manualmente em caso de falha."
+
+#. module: edi_oca
+#: model_terms:ir.ui.view,arch_db:edi_oca.edi_exchange_record_view_search
+msgid "Type"
+msgstr "Tipo"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_unread
+msgid "Unread Messages"
+msgstr "Mensagens Não Lidas"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de Mensagens não Lidas"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__input_pending
+#, fuzzy
+msgid "Waiting to be received"
+msgstr "Esperando para ser recebido"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__output_pending
+#, fuzzy
+msgid "Waiting to be sent"
+msgstr "Esperando para ser enviado"
+
+#. module: edi_oca
+#: model:ir.model.fields,field_description:edi_oca.field_edi_exchange_record__website_message_ids
+msgid "Website Messages"
+msgstr "Mensagens do Site"
+
+#. module: edi_oca
+#: model:ir.model.fields,help:edi_oca.field_edi_exchange_record__website_message_ids
+msgid "Website communication history"
+msgstr "Histórico de comunicação do site"
+
+#. module: edi_oca
+#: model:ir.model.fields.selection,name:edi_oca.selection__edi_exchange_record__edi_exchange_state__output_error_on_send
+#, fuzzy
+msgid "error on send"
+msgstr "erro no envio"
