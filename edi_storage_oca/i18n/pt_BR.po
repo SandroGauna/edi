@@ -1,0 +1,157 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* edi_storage_oca
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__display_name
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_exchange_type__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: edi_storage_oca
+#: model:ir.model,name:edi_storage_oca.model_edi_backend
+#, fuzzy
+msgid "EDI Backend"
+msgstr "EDI Backend"
+
+#. module: edi_storage_oca
+#: model:ir.model,name:edi_storage_oca.model_edi_exchange_type
+#, fuzzy
+msgid "EDI Exchange Type"
+msgstr "Tipo de troca EDI"
+
+#. module: edi_storage_oca
+#: model:ir.actions.server,name:edi_storage_oca.cron_check_storage_pending_input_ir_actions_server
+#: model:ir.cron,cron_name:edi_storage_oca.cron_check_storage_pending_input
+#: model:ir.cron,name:edi_storage_oca.cron_check_storage_pending_input
+#, fuzzy
+msgid "EDI backend storage check pending input"
+msgstr "EDI backend verificação de armazenamento pendente"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_exchange_type__exchange_filename_pattern
+#, fuzzy
+msgid "Exchange Filename Pattern"
+msgstr "Padrão de nome de arquivo de troca"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_exchange_type__exchange_filename_pattern
+#, fuzzy
+msgid ""
+"For output exchange types this should be a formatting string with the "
+"following variables available (to be used between brackets, `{}`): "
+"`exchange_record`, `record_name`, `type` and `dt`. For instance, a valid "
+"string would be {record_name}-{type.code}-{dt}\n"
+"For input exchange types related to storage backends it should be a regex "
+"expression to filter the files to be fetched from the pending directory in "
+"the related storage. E.g: `.*my-type-[0-9]*.\\.csv`"
+msgstr ""
+"Para os tipos de troca de saída, esta deve ser uma sequência de formatação "
+"com as seguintes variáveis disponíveis (a ser usada entre suportes, '{}'): "
+"'exchange_record', 'record_name', 'type' e 'dt'. Por exemplo, uma "
+"sequência válida seria {record_name}-{type.code}-{dt}\n"
+"Para tipos de troca de entrada relacionados a backends de armazenamento, "
+"deve ser uma expressão regex para filtrar os arquivos a serem obtidos do "
+"diretório pendente no armazenamento relacionado. Por exemplo: '.*meu tipo-"
+"[0-9]*.\\.csv'"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__id
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_exchange_type__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__input_dir_done
+#, fuzzy
+msgid "Input done directory"
+msgstr "Diretório de entrada feito"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__input_dir_error
+#, fuzzy
+msgid "Input error directory"
+msgstr "Diretório de erro de entrada"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__input_dir_pending
+#, fuzzy
+msgid "Input pending directory"
+msgstr "Diretório pendente de entrada"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend____last_update
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_exchange_type____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__output_dir_done
+#, fuzzy
+msgid "Output done directory"
+msgstr "Diretório de saída feito"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__output_dir_error
+#, fuzzy
+msgid "Output error directory"
+msgstr "Diretório de erro de saída"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__output_dir_pending
+#, fuzzy
+msgid "Output pending directory"
+msgstr "Diretório pendente de saída"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__input_dir_done
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__output_dir_done
+#, fuzzy
+msgid "Path to folder for doneful operations"
+msgstr "Caminho para pasta para operações feitas"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__input_dir_error
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__output_dir_error
+#, fuzzy
+msgid "Path to folder for error operations"
+msgstr "Caminho para pasta para operações de erro"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__input_dir_pending
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__output_dir_pending
+#, fuzzy
+msgid "Path to folder for pending operations"
+msgstr "Caminho para pasta para operações pendentes"
+
+#. module: edi_storage_oca
+#: model_terms:ir.ui.view,arch_db:edi_storage_oca.edi_backend_view_form
+msgid "Storage"
+msgstr "Armazenamento"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,field_description:edi_storage_oca.field_edi_backend__storage_id
+#, fuzzy
+msgid "Storage backend"
+msgstr "Back-end de armazenamento"
+
+#. module: edi_storage_oca
+#: model:ir.model.fields,help:edi_storage_oca.field_edi_backend__storage_id
+#, fuzzy
+msgid "Storage for in-out files"
+msgstr "Armazenamento para arquivos in-out"
