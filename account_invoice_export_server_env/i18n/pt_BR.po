@@ -1,0 +1,44 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_export_server_env
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: account_invoice_export_server_env
+#: model:ir.model.fields,field_description:account_invoice_export_server_env.field_transmit_method__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: account_invoice_export_server_env
+#: model:ir.model.fields,field_description:account_invoice_export_server_env.field_transmit_method__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: account_invoice_export_server_env
+#: model:ir.model.fields,field_description:account_invoice_export_server_env.field_transmit_method____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: account_invoice_export_server_env
+#: model:ir.model.fields,field_description:account_invoice_export_server_env.field_transmit_method__server_env_defaults
+#, fuzzy
+msgid "Server Env Defaults"
+msgstr "Padrão env do servidor"
+
+#. module: account_invoice_export_server_env
+#: model:ir.model,name:account_invoice_export_server_env.model_transmit_method
+msgid "Transmit Method of a document"
+msgstr "Transmitir método de um documento"
