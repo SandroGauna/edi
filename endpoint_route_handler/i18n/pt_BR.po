@@ -1,0 +1,146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* endpoint_route_handler
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__active
+msgid "Active"
+msgstr "Ativo"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__auth_type
+#, fuzzy
+msgid "Auth Type"
+msgstr "Tipo Auth"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__csrf
+#, fuzzy
+msgid "Csrf"
+msgstr "Csrf"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__display_name
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_ir_http__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__endpoint_hash
+#, fuzzy
+msgid "Endpoint Hash"
+msgstr "Endpoint Hash"
+
+#. module: endpoint_route_handler
+#: model:ir.model,name:endpoint_route_handler.model_endpoint_route_handler
+#, fuzzy
+msgid "Endpoint Route handler"
+msgstr "Manipulador de rota de ponto final"
+
+#. module: endpoint_route_handler
+#: model:ir.model,name:endpoint_route_handler.model_ir_http
+msgid "HTTP Routing"
+msgstr "Roteamento HTTP"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__id
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_ir_http__id
+msgid "ID"
+msgstr "Identificação"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,help:endpoint_route_handler.field_endpoint_route_handler__endpoint_hash
+#, fuzzy
+msgid "Identify the route with its main params"
+msgstr "Identifique a rota com seus principais params"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler____last_update
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_ir_http____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: endpoint_route_handler
+#: code:addons/endpoint_route_handler/models/endpoint_route_handler.py:0
+#, fuzzy, python-format
+msgid ""
+"Non unique route(s): %(routes)s.\n"
+"Found in model(s): %(models)s.\n"
+msgstr ""
+"Rota não única: %(routes)s.\n"
+"Encontrado em modelos: %(models)s.\n"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__request_content_type
+#, fuzzy
+msgid "Request Content Type"
+msgstr "Solicitar tipo de conteúdo"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__request_method
+msgid "Request Method"
+msgstr "Método Requerido"
+
+#. module: endpoint_route_handler
+#: code:addons/endpoint_route_handler/models/endpoint_route_handler.py:0
+#, fuzzy, python-format
+msgid "Request method is required for POST and PUT."
+msgstr "O método de solicitação é necessário para POST e PUT."
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__route
+msgid "Route"
+msgstr "Rota"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__route_group
+#, fuzzy
+msgid "Route Group"
+msgstr "Grupo de Rotas"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,field_description:endpoint_route_handler.field_endpoint_route_handler__route_type
+#, fuzzy
+msgid "Route Type"
+msgstr "Tipo de rota"
+
+#. module: endpoint_route_handler
+#: model:ir.model.fields,help:endpoint_route_handler.field_endpoint_route_handler__route_group
+#, fuzzy
+msgid "Use this to classify routes together"
+msgstr "Use isso para classificar rotas em conjunto"
+
+#. module: endpoint_route_handler
+#: model:ir.model.constraint,message:endpoint_route_handler.constraint_edi_endpoint_endpoint_route_unique
+#: model:ir.model.constraint,message:endpoint_route_handler.constraint_endpoint_endpoint_endpoint_route_unique
+#: model:ir.model.constraint,message:endpoint_route_handler.constraint_endpoint_mixin_endpoint_route_unique
+#: model:ir.model.constraint,message:endpoint_route_handler.constraint_endpoint_route_handler_endpoint_route_unique
+#, fuzzy
+msgid "You can register an endpoint route only once."
+msgstr "Você pode registrar uma rota de ponto final apenas uma vez."
+
+#. module: endpoint_route_handler
+#: code:addons/endpoint_route_handler/models/endpoint_route_handler.py:0
+#, fuzzy, python-format
+msgid "`%s` uses a blacklisted routed = `%s`"
+msgstr "'%s' usa uma lista negra roteada = '%s'"
