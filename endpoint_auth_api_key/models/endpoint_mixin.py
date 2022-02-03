@@ -1,4 +1,4 @@
-# Copyright 2021 Camptcamp SA
+# Copyright 2021 Camptocamp SA
 # @author: Simone Orsi <simone.orsi@camptocamp.com>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
@@ -32,3 +32,9 @@ class EndpointMixin(models.AbstractModel):
 
     def _allowed_api_key_ids(self):
         return self.auth_api_key_group_ids.auth_api_key_ids.ids
+
+    def action_view_api_key_groups(self):
+        xmlid = "auth_api_key_group.auth_api_key_group_act_window"
+        action = self.env["ir.actions.act_window"]._for_xml_id(xmlid)
+        action["domain"] = [("id", "in", self.auth_api_key_group_ids.ids)]
+        return action

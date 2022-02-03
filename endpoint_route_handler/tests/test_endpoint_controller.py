@@ -1,4 +1,4 @@
-# Copyright 2021 Camptcamp SA
+# Copyright 2021 Camptocamp SA
 # @author: Simone Orsi <simone.orsi@camptocamp.com>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
@@ -28,6 +28,7 @@ class EndpointHttpCase(HttpCase):
 
     def tearDown(self):
         EndpointRegistry.wipe_registry_for(self.env.cr.dbname)
+        self.env["ir.http"]._clear_routing_map()
         super().tearDown()
 
     def _make_new_route(self, register=True, **kw):

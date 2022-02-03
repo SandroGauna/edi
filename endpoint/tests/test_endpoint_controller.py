@@ -1,4 +1,4 @@
-# Copyright 2021 Camptcamp SA
+# Copyright 2021 Camptocamp SA
 # @author: Simone Orsi <simone.orsi@camptocamp.com>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
@@ -40,6 +40,13 @@ class EndpointHttpCase(HttpCase):
         response = self.url_open("/demo/one/new")
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.content, b"ok")
+        # Archive it
+        endpoint.active = False
+        response = self.url_open("/demo/one/new")
+        self.assertEqual(response.status_code, 404)
+        endpoint.active = True
+        response = self.url_open("/demo/one/new")
+        self.assertEqual(response.status_code, 200)
 
     def test_call2(self):
         response = self.url_open("/demo/as_demo_user")

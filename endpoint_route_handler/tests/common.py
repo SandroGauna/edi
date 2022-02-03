@@ -1,4 +1,4 @@
-# Copyright 2021 Camptcamp SA
+# Copyright 2021 Camptocamp SA
 # @author: Simone Orsi <simone.orsi@camptocamp.com>
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
@@ -49,4 +49,5 @@ class CommonEndpoint(SavepointCase):
             for k, v in request_attrs.items():
                 setattr(mocked_request, k, v)
             mocked_request.make_response = lambda data, **kw: data
+            mocked_request.registry._init_modules = set()
             yield mocked_request
